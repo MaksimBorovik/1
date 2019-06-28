@@ -1316,6 +1316,9 @@ a {
     right: 20px;
     background-color: rgba(68, 89, 110, 0.9);
   }
+  .header-navbar__item--last a {
+    padding: 20px;
+  }
   .header-navbar__hamburger {
     display: block;
   }
