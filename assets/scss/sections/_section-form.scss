@@ -69,8 +69,8 @@
       }
     }
 
-    &--first-name::placeholder,
-    &--e-mail::placeholder {
+    &--first-name,
+    &--e-mail {
       padding-left: 30px;
       color: $c2-3;
 

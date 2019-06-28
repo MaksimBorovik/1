@@ -952,27 +952,7 @@ a {
   transition: background-color 0.5s;
 }
 
-.form__container--first-name::-webkit-input-placeholder, .form__container--e-mail::-webkit-input-placeholder {
-  padding-left: 30px;
-  color: #9DA1AE;
-}
-
-.form__container--first-name::-moz-placeholder, .form__container--e-mail::-moz-placeholder {
-  padding-left: 30px;
-  color: #9DA1AE;
-}
-
-.form__container--first-name:-ms-input-placeholder, .form__container--e-mail:-ms-input-placeholder {
-  padding-left: 30px;
-  color: #9DA1AE;
-}
-
-.form__container--first-name::-ms-input-placeholder, .form__container--e-mail::-ms-input-placeholder {
-  padding-left: 30px;
-  color: #9DA1AE;
-}
-
-.form__container--first-name::placeholder, .form__container--e-mail::placeholder {
+.form__container--first-name, .form__container--e-mail {
   padding-left: 30px;
   color: #9DA1AE;
 }
@@ -1266,19 +1246,7 @@ a {
   .form__container--input, .form__container--button {
     font-size: 1rem;
   }
-  .form__container--first-name::-webkit-input-placeholder, .form__container--e-mail::-webkit-input-placeholder {
-    padding-left: 25px;
-  }
-  .form__container--first-name::-moz-placeholder, .form__container--e-mail::-moz-placeholder {
-    padding-left: 25px;
-  }
-  .form__container--first-name:-ms-input-placeholder, .form__container--e-mail:-ms-input-placeholder {
-    padding-left: 25px;
-  }
-  .form__container--first-name::-ms-input-placeholder, .form__container--e-mail::-ms-input-placeholder {
-    padding-left: 25px;
-  }
-  .form__container--first-name::placeholder, .form__container--e-mail::placeholder {
+  .form__container--first-name, .form__container--e-mail {
     padding-left: 25px;
   }
   .posts__container {
@@ -1352,19 +1320,7 @@ a {
     grid-template-columns: 1fr;
     grid-template-areas: "b1" "b2" "b3";
   }
-  .form__container--first-name::-webkit-input-placeholder, .form__container--e-mail::-webkit-input-placeholder {
-    padding-left: 20px;
-  }
-  .form__container--first-name::-moz-placeholder, .form__container--e-mail::-moz-placeholder {
-    padding-left: 20px;
-  }
-  .form__container--first-name:-ms-input-placeholder, .form__container--e-mail:-ms-input-placeholder {
-    padding-left: 20px;
-  }
-  .form__container--first-name::-ms-input-placeholder, .form__container--e-mail::-ms-input-placeholder {
-    padding-left: 20px;
-  }
-  .form__container--first-name::placeholder, .form__container--e-mail::placeholder {
+  .form__container--first-name, .form__container--e-mail {
     padding-left: 20px;
   }
   .posts__container {
