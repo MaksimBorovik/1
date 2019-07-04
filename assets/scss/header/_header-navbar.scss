@@ -19,8 +19,7 @@
     @include md {
       display: none;
       position: absolute;
-      top: 100%;
-      right: 20px;
+      top: 119%;
       background-color: rgba($color-gray-dark, 0.9);
     }
   }
@@ -79,7 +78,7 @@
       transition: 0.25s ease-in-out;
 
       &:nth-child(1) {
-        top: 0px;
+        top: 0;
         transform-origin: left center;
       }
       
@@ -94,7 +93,7 @@
       }
     }
 
-    .active span {
+    &.active span {
 
       &:nth-child(1) {
         transform: rotate(45deg);

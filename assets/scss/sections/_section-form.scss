@@ -31,7 +31,7 @@
                            "b2 b3";
     }
 
-    @include md {
+    @include sm {
       max-width: 576px;
       grid-template-columns: 1fr;
       grid-template-areas: "b1"
@@ -72,7 +72,7 @@
     &--first-name,
     &--e-mail {
       padding-left: 30px;
-      color: $c2-3;
+      color: $color-light;
 
       @include lg {
         padding-left: 25px;
@@ -83,10 +83,18 @@
       }
     }
 
+    &--first-name:hover::placeholder,
+    &--e-mail:hover::placeholder,
+    &--first-name:focus::placeholder,
+    &--e-mail:focus::placeholder {
+      color: $color-light;
+    }
+
     &--first-name:hover,
     &--e-mail:hover,
     &--first-name:focus,
     &--e-mail:focus {
+      outline: none;
       border-bottom: 3px solid $color-light;
       background-color: $c2-2;
     }
