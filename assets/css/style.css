@@ -1126,6 +1126,7 @@ a {
 
 .posts-item__article h3 {
   margin: 0 auto;
+  padding-top: 18px;
   font-family: "Roboto Slab", serif;
   font-size: 1.125rem;
   letter-spacing: 0.05em;
