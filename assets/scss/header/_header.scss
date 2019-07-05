@@ -1,26 +1,10 @@
 .header {
   position: relative;
   display: grid;
-  min-height: 1080px;
+  min-height: 100vh;
   padding: 100px 0;
   background-color: $color-main;
   background-position: 50% 50%;
   background-size: cover;
   align-items: center;
-
-  @include lg {
-    min-height: 766px;
-  }
-
-  @include md {
-    min-height: 560px;
-  }
-
-  @include sm {
-    min-height: 992px;
-  }
-
-  @include xs {
-    min-height: 667px;
-  }
 }

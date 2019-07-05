@@ -550,7 +550,7 @@ a {
 .header {
   position: relative;
   display: grid;
-  min-height: 1080px;
+  min-height: 100vh;
   padding: 100px 0;
   background-color: #2d3651;
   background-position: 50% 50%;
@@ -1014,9 +1014,8 @@ a {
 
 .form__container--button {
   padding: 0;
-  border: 3px solid #797F90;
   border-bottom: 3px solid #9B9FAC;
-  background-color: #797F90;
+  background-color: #424B63;
 }
 
 .form__container--button:hover, .form__container--button:focus {
@@ -1047,7 +1046,7 @@ a {
 
 .posts__button-link {
   min-width: 350px;
-  background-color: #44596e;
+  background-color: #575E73;
   border: 2px solid #2d3651;
 }
 
@@ -1263,9 +1262,6 @@ a {
   h2 {
     font-size: 2rem;
   }
-  .header {
-    min-height: 766px;
-  }
   .header-content__title {
     margin: 0 0 43px;
   }
@@ -1321,9 +1317,6 @@ a {
   }
   h2 {
     font-size: 1.5rem;
-  }
-  .header {
-    min-height: 560px;
   }
   .header-menu {
     background-color: rgba(68, 89, 110, 0.25);
@@ -1396,9 +1389,6 @@ a {
   .btn {
     width: 100%;
   }
-  .header {
-    min-height: 992px;
-  }
   .skills {
     padding: 20px;
   }
@@ -1441,9 +1431,6 @@ a {
 @media (max-width: 400px) {
   .btn {
     min-width: 335px;
-  }
-  .header {
-    min-height: 667px;
   }
   .header-content__buttons {
     display: -webkit-box;
