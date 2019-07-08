@@ -72,7 +72,7 @@
     &--first-name,
     &--e-mail {
       padding-left: 30px;
-      color: $color-light;
+      color: $color-gray-light;
 
       @include lg {
         padding-left: 25px;
@@ -100,13 +100,13 @@
     }
 
     &--button {
-      padding: 0;
       border-bottom: 3px solid #9B9FAC;
       background-color: $c4;
     }
 
     &--button:hover,
     &--button:focus {
+      padding: 13px 0 16px;
       background-color: $color-accent;
       border: 3px solid $color-light;
     }

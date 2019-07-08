@@ -983,7 +983,7 @@ a {
 
 .form__container--first-name, .form__container--e-mail {
   padding-left: 30px;
-  color: #ffffff;
+  color: #e5e5e5;
 }
 
 .form__container--first-name:hover::-webkit-input-placeholder, .form__container--e-mail:hover::-webkit-input-placeholder, .form__container--first-name:focus::-webkit-input-placeholder, .form__container--e-mail:focus::-webkit-input-placeholder {
@@ -1013,12 +1013,12 @@ a {
 }
 
 .form__container--button {
-  padding: 0;
   border-bottom: 3px solid #9B9FAC;
   background-color: #424B63;
 }
 
 .form__container--button:hover, .form__container--button:focus {
+  padding: 13px 0 16px;
   background-color: #d66926;
   border: 3px solid #ffffff;
 }
