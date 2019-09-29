@@ -1,2 +1,2 @@
 **Check out the result on page:**
-https://maksimborovik.github.io/grid-template-project/
+https://mirrorimage7.github.io/grid-template-project/
